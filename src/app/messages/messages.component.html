@@ -1,6 +1,6 @@
 <ng-container *ngIf="(errors$ | async) as errors">
 
-<div class="message-container" *ngIf="showMessages">
+<div class="messages-container" *ngIf="showMessages">
     <div class="message" *ngFor = "let error of errors">
         {{error}}
     </div>
